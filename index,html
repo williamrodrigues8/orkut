@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orkut</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="container-header">
+      <nav>
+        <div class="peido">
+          <a class="nav-bar-icon-style" href="#">
+            <img id="logo" src="/img/logo-orkut.png" alt="Logo Orkut" />
+          </a>
+
+          <div>
+            <ul class="nav-bar-selections-options">
+              <li id="inicio-nav">
+                <a href="#">Início</a>
+              </li>
+
+              <li id="perfil-nav">
+                <a href="#">Perfil</a>
+              </li>
+
+              <li id="recados-nav">
+                <a href="#">Página de Recados</a>
+              </li>
+
+              <li id="amigos-nav">
+                <a href="#">Amigos</a>
+              </li>
+
+              <li id="comunity-nav">
+                <a href="#">Comunidades</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="options-esquerdo">
+          <li id="nav-bar-exit">
+            <a href="#">Sair</a>
+          </li>
+          <div class="input-nav-bar-search">
+            <input
+              type="search"
+              class="input-text-search-console"
+              name="search"
+              placeholder="pesquisar no orkut"
+            />
+
+            <span class="grup-span-button-search">
+              <button class="button-submit-search-group" type="submit">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-search"
+                >
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </button>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="cheirosa">
+      <aside class="container-aside">
+        <div class="infos-perfil">
+          <div class="perfil-img">
+            <a href="#">
+              <img src="/img/image-profile.jpg" alt="imagem do perfil" />
+            </a>
+          </div>
+
+          <div class="a-separador"></div>
+          <div class="info-perfil">
+            <h3>WILLIAM <br />RODRIGUES</h3>
+            <p>
+              masculino, <br />solteiro(a)<br />
+              Brasil
+            </p>
+            <div class="a-separador2"></div>
+          </div>
+
+          <div class="options-perfil-select">
+            <ul class="container-select-option-one">
+              <li id="perfil-option-perfil">
+                <img src="/icons/social.ico" alt="" />
+                <a class="perfil-button-options" href="#">perfil</a>
+                <a href="#">editar</a>
+              </li>
+              <li id="recados-option-perfil">
+                <img src="/icons/coffe.ico" alt="" />
+                <a id="icon-recados-option-perfil" href="#">recados</a>
+              </li>
+              <li id="fotos-option-perfil">
+                <img src="/icons/cam.ico" alt="" />
+                <a id="icon-fotos-option-perfil" href="#">fotos</a>
+              </li>
+              <li id="videos-option-pefil">
+                <img src="/icons/movie.ico" alt="" />
+                <a id="icon-videos-option-perfil" href="#">videos</a>
+              </li>
+              <li id="depoimentos-option-perfil">
+                <img src="/icons/depoimentos.ico" alt="" />
+                <a id="icon-depoimentos-option-perfil" href="#">depoimentos</a>
+              </li>
+            </ul>
+
+            <div class="a-separador3"></div>
+            <div class="container-apps">
+              <ul class="b-apps-container-select-two">
+                <li>
+                  <b>Apps</b>
+                </li>
+              </ul>
+
+              <li class="add-apps-button-options-container-two">
+                <img src="/icons/add.ico" alt="" />
+                <a id="icon-add-apps-container-options-two" href="#"
+                  >adicionar apps</a
+                >
+              </li>
+            </div>
+
+            <div class="a-separador4"></div>
+            <ul class="container-select-option-two">
+              <li class="listas-button-options-container-two">
+                <img src="/icons/list.ico" alt="" />
+                <a id="icon-listas-container-options-two" href="#">listas</a>
+              </li>
+              <li class="atualizacao-button-options-container-two">
+                <img src="/icons/att.ico" alt="" />
+                <a id="icon-att-container-options-two" href="#">atualizações</a>
+              </li>
+              <li class="config-button-options-container-two">
+                <img src="/icons/config.ico" alt="" />
+                <a id="icon-config-container-options-two" href="#"
+                  >configurações</a
+                >
+              </li>
+              <li class="help-button-options-container-two">
+                <img src="/icons/help.ico" alt="" />
+                <a id="icon-help-container-options-two" href="#"
+                  >ajudar o orkut</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <main class="container-main">
+        <div class="container-main-1">
+          <div class="content-h1-text">
+            <h1>Bem-vindo(a)</h1>
+          </div>
+          <div class="merda">
+            <div class="menu-middle">
+              <div class="content-1">
+                <p>recados</p>
+                <a href="#">
+                  <div class="group1-menu-middle1">
+                    <img src="/icons/list.ico" alt="" />
+                    <span id="span1">0</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="menu-middle">
+              <div class="content-1">
+                <p>fotos</p>
+                <a href="#">
+                  <div class="group1-menu-middle1">
+                    <img src="/icons/cam.ico" alt="" />
+                    <span id="span1">0</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="menu-middle">
+              <div class="content-1">
+                <p>vídeos</p>
+                <a href="#">
+                  <div class="group1-menu-middle1">
+                    <img src="/icons/movie.ico" alt="" />
+                    <span id="span1">0</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="menu-middle">
+              <div class="content-1">
+                <p>fãs</p>
+                <a href="#">
+                  <div class="group1-menu-middle1">
+                    <img src="/icons/help.ico" alt="" />
+                    <span id="span1">0</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="menu-middle">
+              <div class="content-1">
+                <p>mensagens</p>
+                <a href="#">
+                  <div class="group1-menu-middle1">
+                    <img src="/icons/social.ico" alt="" />
+                    <span id="span1">0</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="infos-main-meio">
+            <div class="span-1">
+              <b>Visualizações de seu perfil:</b>
+              <span>Desde Jul. 2017:0, <br />Semana passada:0, Ontem:0</span>
+            </div>
+
+            <div class="span-2">
+              <b>Seus visitantes recentes:</b>
+              <span>nenhum</span>
+            </div>
+
+            <div class="span-3">
+              <b>Sorte de hoje:</b>
+              <span>ocê é generoso, gatonixes, lindo, gostoso</span>
+            </div>
+          </div>
+
+          <div class="mensagens-baixo-caixa1">
+            <div class="mensagem1">
+              <span class="span-atencion">Dica:</span>
+              <a href="#">Clique aqui</a>
+              <span>para conectar como o Facebook.</span>
+            </div>
+
+            <div class="mensagem2">
+              <span class="span-atencion2">Aviso:</span>
+              <span>o orkut.gatonix não tem vinculo com o Google</span>
+            </div>
+          </div>
+
+          <div class="caixa2">
+            <span>O orkut fica mais legal com os seus boyfriends!</span>
+            <a href="#">Compartilhar</a>
+            <a href="#">Tweetar</a>
+          </div>
+        </div>
+
+        <div class="painel-main-2">
+          <b class="tittle-panel">sugestões de amigos do orkut
+          </b>
+          <div class="group-panel">
+            <div class="stage-navegations">
+
+              <div id="account-1">
+                <a href="#" class="close">x</a>
+                <div class="sugestao-pessoa-1">
+                  <img src="./img/image-profile.jpg" alt="">
+                  <a href="#">mc calvin</a>
+                  <div id="add-friends-option">
+                    <a href="#">adicionar aos amigos</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="buttons-previous-next">
+              <div id="previus">&#65513</div>
+              <div id="next">&#65515</div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!--<footer>
+      <div class="container-footer">
+        <div class="footer-class-footer">
+          <a href="https://www.orkut.br.com/" class="logo-footer"
+            ><img
+              id="logofooter"
+              src="https://www.orkut.br.com/assets/img/logo-footer.png"
+              alt="Logo Orkut"
+          /></a>
+          <a href="https://www.orkut.br.com/sobre" class="hidden-xs"
+            >Sobre o orkut</a
+          >
+          <a href="https://www.orkut.br.com/seguranca" class="hidden-xs"
+            >Centro de segurança</a
+          >
+          <a href="https://www.orkut.br.com/privacidade">Privacidade</a>
+          <a href="https://www.orkut.br.com/termos" class="hidden-xs"
+            >Termos de uso</a
+          >
+          <a href="https://www.orkut.br.com/contato" class="hidden-xs">Ajuda</a>
+          <a href="https://www.orkut.br.com/contato">Contato</a>
+        </div>
+      </div>
+    </footer> -->
+  </body>
+</html>
